@@ -1,0 +1,252 @@
+*{margin: 0;padding: 0}
+@font-face {
+    font-family: League-gothic; 
+    src: url(images/league-gothic.regular.ttf); 
+   }
+@font-face {
+    font-family: Open Sans; 
+    src: url(images/open-sans.regular.ttf); 
+   }
+@font-face {
+    font-family: Open Sans light; 
+    src: url(images/open-sans.light.ttf); 
+   }
+
+header{background-image: url(images/bg_header.jpg);background-repeat: no-repeat;background-size: cover;height: 900px;}
+nav{width: 960px;height: 260px;margin: 0 auto;color: white;font-size: 24px;padding-top: 30px;font-family: league-gothic;}
+ul.navigation{list-style: none;display: flex;justify-content: space-around}
+ul.navigation li:first-child{font-size: 48px;padding-right: 120px }
+ul.navigation li span{color: #745083}
+.iphone{width: 920px;height: 350px;margin: 0 auto;padding: 20px;}
+.iphone h1{color: white;font-size: 48px;font-family: League-gothic}
+.iphone h2{color: #edbfff;font-family: League-gothic;font-size: 32px}
+.iphone p{color: white;font-size: 18px;font-family: Open Sans light}
+#phone{position: relative;top: -350px;left: 600px;}
+.iphone::before{content: "\3C";color: white;font-size: 60px;font-weight: bolder;position: relative;top: 150px;right: 200px}
+.iphone::after{content: "\3E";color: white;font-size: 60px;font-weight: bolder;position: relative;bottom: 520px;left: 750px}
+.point{width: 100px;position: relative;left:50%;top: 50px;}
+
+
+
+main{ height: 850px;}
+.about{height: 250px;margin: 0 auto;background-image: linear-gradient(#745083,#322539)}
+.main{width: 960px;height: 250px;margin: 0 auto;color: white;font-size: 24px;padding-top: 0px;font-family: league-gothic;}
+ul.main{list-style: none;display: flex;justify-content: space-around;}
+ul.main li p{font-family: open sans light;font-size: 16px;padding-left: 40px;}
+#first::before{content: url(images/first.png);padding-right: 10px;}
+#second::before{content: url(images/second.png);padding-right: 10px}
+#third::before{content: url(images/third.png);padding-right: 10px}
+span.read{padding-left: 200px;}
+
+.blog{width: 960px;height: 600px;margin: 0 auto;display: flex;flex-wrap: wrap;justify-content: flex-start;}
+.blogright{background: url(images/RAMKA.png) no-repeat;padding: 10px 0 10px 60px;margin: 20px;width: 450px;height: 300px;box-sizing: border-box}
+.blogright h3{font-size: 30px;font-family: League-gothic;margin-right: 50px;}
+.blogright span{color: #745083 }
+.blogright p{font-size: 16px;font-family: Open Sans light; }
+.blogright h3::before{content: url(images/man.png);position:relative; right: 50px;}
+.blogleft{width: 430px;height: 400px; margin: 10px; padding: 20px 0 10px 20px;box-sizing: border-box}
+.blogleft h3{font-family: League-gothic;font-size: 30px}
+.blogleft h4{font-family: Open Sans;font-size: 16px;font-weight: bold;}
+.blogleft p{font-family: Open Sans;font-size: 16px;padding-left: 50px}
+.blogleft h4#post1::before{content: url(images/post1.png);position: relative;top: 40px;}
+.blogleft h4#post2::before{content: url(images/post2.png);position: relative;top: 40px;}
+.blogleft h4#post3::before{content: url(images/post3.png);position: relative;top: 40px;}
+h4#reading{padding-left: 250px}
+.logo{width: 960px;height: 80px;display: flex;flex-direction: row;justify-content: space-around;flex-wrap: wrap;}
+
+.foot{height: 400px;background-color: lightgray}
+.PIG{display: flex;flex-direction: row;width: 960px;height: 400px;margin:0 auto;padding: 100px 0px;justify-content: space-around;box-sizing: border-box}
+.footer1 h4{font-size: 48px;font-family: League-gothic}
+.footer1 p{font-size: 16px;font-family: open-sans}
+.footer1 span{font-family: Georgia;font-size: 16px;font-style: italic;color: #c5c5c5}
+.footer2 h4{font-size: 30px;font-family: League-gothic}
+.footer2 p{font-size: 16px;font-family: open-sans}
+.footer3 h4{font-size: 30px;font-family: League-gothic}
+.footer3 p{font-size: 16px;font-family: open-sans}
+footer{background-image: url(images/footer.jpg);background-repeat: no-repeat;background-size: cover;}
+footer ul{display: flex;flex-wrap: wrap;justify-content: space-between; width: 960px;height: 110px;margin: 0 auto;list-style: none;}
+footer ul#home li{color: white;font-family:League-gothic;font-size: 20px ;padding: 20px;}
+footer li span{font-family:Open Sans;font-size: 12px;}
+
+@media screen and (max-width:768px){
+
+    
+  
+header{background-image: url(images/bg_header.jpg);height: 800px;}
+nav{width: 720px;height: 140px;margin: 0 auto;color: white;font-size: 24px;padding-top: 70px;font-family: league-gothic; }
+ul.navigation{list-style: none;display: flex;justify-content:space-between;flex-wrap: wrap;margin-left: 20px;}
+ul.navigation li:first-child{font-size: 48px;position: absolute;top: 0px}
+ul.navigation li span{color: #745083}
+.iphone{width: 720px;height: 420px;margin: 0 auto;padding: 20px;box-sizing: border-box;}
+.iphone h1{color: white;font-size: 42px;font-family: League-gothic;padding-left: 50px;}
+.iphone h2{color: #edbfff;font-family: League-gothic;padding-left: 50px;font-size: 24px;}
+.iphone p{color: white;font-size: 12px;padding-left: 50px;font-family: Open Sans light;}
+#phone{position: relative;top: -220px;left: 380px;}
+.iphone::before{content: "\3C";color: white;font-size: 60px;font-weight: bolder;position: relative;top: 125px;left: 20px}
+.iphone::after{content: "\3E";color: white;font-size: 60px;font-weight: bolder;position: relative;bottom: 475px;left:400px;}
+.point{width: 100px;position: relative;left:50%;top: 50px;}
+main{ height: 850px;background-color: white}
+.about{width:768px;height: 300px;margin: 0 auto;background-image: linear-gradient(#745083,#322539)}
+.main{width: 768px;height: 250px;margin: 0 auto;color: white;font-size: 20px;padding-top: 40px;font-family: league-gothic;}
+ul.main{list-style: none;display: flex;justify-content: space-around;}
+ul.main li p{font-family: open sans light;font-size: 12px;padding-left: 40px;}
+#first::before{content: url(images/first.png);padding-right: 10px;}
+#second::before{content: url(images/second.png);padding-right: 10px}
+#third::before{content: url(images/third.png);padding-right: 10px}
+span.read{padding-left: 175px;}
+    
+.blog{width: 768px;height: 470px;margin: 0 auto;;display: flex;flex-wrap: wrap;justify-content: flex-start;}
+.blogright{background: url(images/RAMKA.png) no-repeat;padding: 20px;margin: 5px 20px 10px 30px;width: 350px;height: 300px;overflow: hidden;}
+.blogright h3{font-size: 30px;font-family: League-gothic;padding-left: 0px;width: 260px}
+.blogright span{color: #745083 }
+.blogright p{font-size: 16px;font-family: Open Sans light;padding-left: 30px }
+.blogright h3::before{content: url(images/man.png) ;position:relative; left:-20px;}
+.blogleft{width: 350px;height: 360px;margin-top: 35px;margin-right: 5px; padding: 10px;overflow: hidden;}
+.blogleft h3{font-family: League-gothic;font-size: 30px;}
+.blogleft h4{font-family: Open Sans;font-size: 16px;font-weight: bold;position: relative;padding-left: 50px}
+.blogleft p{font-family: Open Sans;font-size: 16px;padding-left: 50px;overflow:hidden}
+.blogleft h4#post1::before{content: url(images/post1.png);position: absolute;left: 0px;top: 0}
+.blogleft h4#post2::before{content: url(images/post2.png);position: absolute;left: 0px;top: 0}
+.blogleft h4#post3::before{content: url(images/post3.png);position: absolute;left: 0px;top: 0}
+ h4#reading{padding-left: 170px}  
+.logo{width: 768px;height: auto;display: flex;flex-direction: row;justify-content: space-around;flex-wrap: wrap;padding: 10px 0}
+    
+.foot{width: 768px;height: 300px;}
+.PIG{display: flex;flex-direction: row;width: 768px;height: 300px;margin:0 auto;padding: 50px 20px;justify-content: space-around;box-sizing: border-box}
+    
+.footer1 h4{font-size: 40px;font-family: League-gothic}
+.footer1 p{font-size: 12px;font-family: open-sans}
+.footer1 span{font-family: Georgia;font-size: 16px;font-style: italic;color: #c5c5c5}
+.footer2 h4{font-size: 30px;font-family: League-gothic}
+.footer2 p{font-size: 12px;font-family: open-sans}
+.footer3 h4{font-size: 30px;font-family: League-gothic}
+.footer3 p{font-size: 12px;font-family: open-sans}
+    
+    
+footer{background-image: url(images/footer.jpg);background-repeat: no-repeat;background-size: cover;}
+footer ul{display: flex;flex-wrap: wrap;justify-content: space-between; width: 768px;height: 110px;margin: 0 auto;list-style: none;}
+footer ul#home li{color: white;font-family:League-gothic;font-size: 20px ;padding: 20px;}
+footer li span{font-family:Open Sans;font-size: 12px; }
+
+@media screen and (max-width:480px)
+    {
+header{background-image: url(images/bg_header.jpg);width:480px;  height: 540px;}
+nav{width: 440px;height: 210px;margin: 0 auto;color: white;font-size: 24px;padding: 0px;font-family: league-gothic;}
+ul.navigation{list-style: none;display: flex;flex-direction: column;justify-content: center;flex-wrap: wrap;}
+ul.navigation li:first-child{font-size: 48px;padding: 20px 110px;color: white;background: transparent}
+ul.navigation li span{color: #745083}
+ul.navigation li {color: white;background:#745083 ;width: 200px;text-align: center;font-size: 24px;position: relative;top: 120px;margin: 0 auto;padding: 5px;z-index: 1;opacity: 0.8}
+.iphone{width: 440px;height: 250px;margin: 0 auto;padding: 10px; }
+.iphone h1{color: white;font-size: 32px;font-family: League-gothic;padding-left: 30px;}
+.iphone h2{color: #edbfff;font-family: League-gothic;font-size: 20px;padding-left: 30px;}
+.iphone p{color: white;font-size: 18px;font-family: Open Sans light;visibility: hidden}
+#phone{position: absolute;top: 200px;left: 230px;height: 260px;}
+.iphone::before{content: "\3C";color: white;font-size: 60px;font-weight: bolder;position: relative;top: 70px;left:-20px}
+.iphone::after{content: "\3E";color: white;font-size: 60px;font-weight: bolder;position: relative;bottom: 330px;right: 0px;}
+.point{width: 100px;position: relative;left:50%;top: 50px;}
+ main{height: 1600px;background-color: white;}
+.about{width:480px;height: 650px;margin: 0 auto; background-image: linear-gradient(#745083,#322539)}
+.main{width: 440px;height: 250px;margin: 0 auto;color: white;font-size: 24px;padding-top: 30px;font-family: league-gothic;}
+ul.main{list-style: none;display: flex;flex-direction: row;justify-content: space-around;flex-wrap: wrap;}
+ul.main li p{font-family: open sans light;font-size: 16px;padding-left: 40px}
+#first::before{content: url(images/first.png);padding-right: 10px;}
+#second::before{content: url(images/first.png);padding-right: 10px}
+#third::before{content: url(images/first.png);padding-right: 10px}
+span.read{padding-left: 200px;padding-bottom: 10px;} 
+        
+.blog{width: 440px;height: 510px;margin: 0 auto;;display: flex;flex-wrap: wrap;justify-content: space-around;}
+.blogright{background: url(images/RAMKA.png) no-repeat;padding: 20px;margin: 20px;width: 320px;height: 300px;}
+.blogright h3{font-size: 30px;font-family: League-gothic;width:300px;padding-left: 20px}
+.blogright span{color: #745083 }
+.blogright p{font-size: 16px;font-family: Open Sans light }
+.blogright h3::before{content: url(images/man.png) ;}
+.blogleft{width: 330px;height: 320px;margin-top: 20px;margin-right: 5px; padding: 5px;}
+.blogleft h3{font-family: League-gothic;font-size: 30px}
+.blogleft h4{font-family: Open Sans;font-size: 16px;font-weight: bold;padding-left: 50px}
+#reading{padding-left: 150px;}
+.blogleft p{font-family: Open Sans;font-size: 16px;padding-left: 50px}
+.blogleft h4#post1::before{content: url(images/post1.png);position: absolute;left: 0px}
+.blogleft h4#post2::before{content: url(images/post2.png);position: absolute;left: 0px}
+.blogleft h4#post3::before{content: url(images/post3.png);position: absolute;left: 0px}
+.logo{width: 480px;height: 220px;display: flex;flex-direction: row;justify-content: space-between; flex-wrap: wrap;}
+.logo img{margin: 10px 10px;padding: 10px;}
+        
+.foot{width: 480px;height: 690px;background-color: lightgray}        
+.PIG{display: flex;flex-direction: column;width: 440px;height: 670px;position: absolute;left: 0px;padding-left: 20px;justify-content: space-between;box-sizing: border-box}
+.footer1 h4{font-size: 48px;font-family: League-gothic}
+.footer1 p{font-size: 16px;font-family: open-sans}
+.footer1 span{font-family: Georgia;font-size: 16px;font-style: italic;color: #c5c5c5}
+.footer2 h4{font-size: 30px;font-family: League-gothic}
+.footer2 p{font-size: 16px;font-family: open-sans}
+.footer3 h4{font-size: 30px;font-family: League-gothic}
+.footer3 p{font-size: 16px;font-family: open-sans}
+
+
+footer ul{display: flex;flex-wrap: wrap;justify-content: space-between; width: 440px;height: 90px;margin: 0 auto;list-style: none}
+footer ul#home li{color: white;font-family:League-gothic;font-size: 20px ;padding: 5px;}
+    footer li span{font-family:Open Sans;font-size: 12px;position: relative;left: 20px;top:10px;}  }      
+
+
+
+@media screen and (max-width:320px){
+    *{margin: 0;padding: 0;box-sizing: border-box}
+header{background-image: url(images/bg.jpg);width: 320px;height: 500px; }
+nav{width: 280px;height: 200px;margin: 0 auto;color: white;font-size: 24px;padding: 0px;font-family: league-gothic;padding-left: 0}
+ul.navigation{list-style: none;display: flex;flex-direction: column;justify-content: flex-start;flex-wrap: wrap;margin-left: 0px}
+ul.navigation li:first-child{font-size: 48px;color: white;background: transparent;padding-left: 70px}
+ul.navigation li:nth-child(2){background: transparent}
+ul.navigation li:nth-child(3){visibility: hidden}
+ul.navigation li:nth-child(4){visibility: hidden}
+ul.navigation li:nth-child(5){visibility: hidden}
+ul.navigation li:nth-child(6){visibility: hidden}
+ul.navigation li:nth-child(7){visibility: hidden}
+ul.navigation li span{color: #745083}
+ul.navigation li {color: white;background:#745083 ;width: 200px;text-align: center;font-size: 24px;margin: 0 auto;}
+.iphone{width: 280px;height: 250px;margin: 0 auto;padding: 00px;}
+.iphone h1{color: white;font-size: 32px;font-family: League-gothic;padding-left: 50px;}
+.iphone h2{color: #edbfff;font-family: League-gothic;font-size: 16px;padding-left: 50px;}
+.iphone p{color: white;font-size: 18px;font-family: Open Sans light;visibility: hidden;}
+#phone{position: relative;top: -450px;left: 0px;visibility:hidden;}
+
+.iphone::before{content: "\3C";color: white;font-size: 30px;font-weight: bolder;position: relative;top: 50px;left: -20px}
+.iphone::after{content: "\3E";color: white;font-size: 30px;font-weight: bolder;position: relative;bottom: 660px;left:105px;}
+.point{width: 100px;position: relative;left:40%;top: 20px;}   
+
+main{width: 320px; height: 1150px;}
+.about{width:320px;height: 650px;margin-left:00px;background-image: linear-gradient(#745083,#322539)}
+.main{width: 280px;height: 250px;margin: 0 auto;color: white;font-size: 24px;padding-top: 30px;font-family: league-gothic;}
+ul.main{list-style: none;display: flex;flex-direction: row;justify-content: flex-start;flex-wrap: wrap;}
+ul.main li p{font-family: open sans light;font-size: 16px;padding-left: 40px;}
+#first::before{content: url(images/first.png);padding-right: 10px;}
+#second::before{content: url(images/second.png);padding-right: 10px}
+#third::before{content: url(images/third.png);padding-right: 10px}
+span.read{padding-left: 200px;padding-bottom: 10px;} 
+
+.blog{width: 280px;height: auto;margin: 0 auto;;display: flex;flex-wrap: wrap;justify-content: space-around;}
+.blogright{background: url(images/RAMKA.png) no-repeat;width: 300px;height: 330px;}
+.blogright h3{font-size: 30px;font-family: League-gothic;width: 150px;padding-left: 30px }
+.blogright span{color: #745083; }
+.blogright p{font-size: 16px;font-family: Open Sans light }
+.blogright h3::before{content: url(images/man.png) ;position: absolute;left:10px;padding-left: 10px;width: 50px}
+.blogleft{width: 320px;height: 400px;margin-top: 20px;}
+.blogleft h3{font-family: League-gothic;font-size: 30px}
+.blogleft h4{font-family: Open Sans;font-size: 16px;font-weight: bold;padding-left: 50px}
+#reading{font-size: 10px}
+.blogleft p{font-family: Open Sans;font-size: 16px;padding-left: 50px}
+.blogleft h4#post1::before{content: url(images/post1.png);position: absolute;left: 0px}
+.blogleft h4#post2::before{content: url(images/post2.png);position: absolute;left: 0px}
+.blogleft h4#post3::before{content: url(images/post3.png);position: absolute;left: 0px}
+    
+.logo{width: 320px;height: 320px;display: flex;flex-direction: row;justify-content: space-between; flex-wrap: wrap;margin: 20px 0}
+.logo img{margin: 10px 10px;padding: 20px;width: 100px;} 
+    
+ .PIG{display: flex;flex-direction: column;width: 320px;height: 670px;position: absolute;left: 0px;justify-content: space-between;margin: 0;padding: 0;}   
+.foot{width: 280px;height: 720px;background-color: lightgray;visibility:hidden;position: relative;right: 0px;}        
+
+footer ul{display: flex;flex-wrap: wrap;justify-content: flex-start; width: 320px;height: 100px;position: relative;list-style: none;}
+footer ul#home li{color: white;font-family:League-gothic;font-size: 20px ;padding: 5px;visibility:hidden;}
+footer li span{font-family:Open Sans;font-size: 12px;position: absolute;top: 20px;left:100px;visibility: visible ;} 
+ 
+
+
+}
